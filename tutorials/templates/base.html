@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Acepeakglobal Website{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation menu, logo, etc. -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+				<li><a href="/htmlpage">HTML</a></li>
+				<li><a href="/csspage">CSS</a></li>
+				<li><a href="/pythonpage">Python</a>Python</li>
+				<li><a href="/javascriptpage">Javascript</a></li>
+				<li><a href="/nodejspage">Nodejs</a></li>
+				<li><a href="/otherspage">Others</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <p>&copy; 2024 Acepeakgl Website</p>
+    </footer>
+</body>
+</html>
