@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -8,8 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        </p>        <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -17,6 +17,12 @@ function App() {
         >
           Learn React
         </a>
+
+        <h1>Welcome to Acepeak Global Ltd Start React App</h1>
+        <p>This is a sample edit of the src/App.js file.</p>
+        <p>You can make changes here and see them reflected in your browser.</p>
+
+
       </header>
     </div>
   );
